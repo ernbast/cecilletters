@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Selección Múltiple</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta charset="UTF-8">
+    <title>Buscador de Registros</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form id="formulario">
-        <select multiple id="seleccion-multiple">
-            <option value="1">ID 1</option>
-            <option value="2">ID 2</option>
-            <option value="3">ID 3</option>
-            <option value="4">ID 4</option>
+    <div class="search-container">
+        <input type="text" id="searchBox" placeholder="Buscar IDs...">
+        <button onclick="searchIDs()">Buscar</button>
+    </div>
+
+    <div class="selection-container">
+        <select id="idSelector" multiple>
+            <!-- Las opciones se llenarán dinámicamente con JavaScript -->
         </select>
-        <button type="submit">Consultar</button>
-    </form>
-    <div id="resultados"></div>
+    </div>
+
+    <div class="results-container" id="results">
+        <!-- Los resultados de la búsqueda se mostrarán aquí -->
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

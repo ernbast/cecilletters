@@ -1,9 +1,44 @@
-#seleccion-multiple {
-    width: 200px;
-    height: 100px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
 }
-#resultados {
-    margin-top: 20px;
-    border: 1px solid #ddd;
+
+.search-container, .selection-container, .results-container {
+    margin-bottom: 20px;
+}
+
+.search-container input, .search-container button {
     padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-container button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+.selection-container select {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.results-container p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
 }
