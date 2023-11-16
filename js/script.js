@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const data = {
-    'ID1': 'Registro asociado a ID1',
-    'ID2': 'Registro asociado a ID2',
+    '1': 'Registro asociado a ID1',
+    '2': 'Registro asociado a ID2',
+    '3': 'Registro asociado a ID3',
     // Agrega más registros según sea necesario
 };
 
