@@ -7,27 +7,29 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto; /* Aumentamos el margen superior para separar el cuadro de búsqueda */
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centramos el contenido en el contenedor */
 }
 
 h1 {
-    text-align: center;
+    margin-top: 0; /* Eliminamos el margen superior del encabezado */
 }
 
 .search-box {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Cambiamos la dirección para que el botón esté debajo del cuadro de búsqueda */
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 20px; /* Aumentamos el margen superior para separar el cuadro de búsqueda del resultado */
 }
 
 input[type="text"] {
-    flex-grow: 1;
+    width: 100%; /* Aprovechamos todo el ancho disponible */
     padding: 10px;
+    margin-bottom: 10px; /* Agregamos un margen inferior para separar el botón */
     border: 1px solid #ccc;
     border-radius: 5px;
 }

@@ -28,11 +28,6 @@ function searchRecords() {
 // Función de ejemplo para buscar registros por ID (debes implementar la tuya)
 function findRecordById(id) {
     // Aquí puedes agregar tu lógica de búsqueda de registros
-    const record = records[id];
-
-    // Por ejemplo, podrías tener un objeto o array de registros y buscar por ID en ese objeto/array.
-    // Retornar el registro si se encuentra, o null si no se encuentra.
-    // En este ejemplo, estamos usando una función de búsqueda simulada.
     const records = {
         "1": "Registro 1",
         "2": "Registro 2",
