@@ -13,7 +13,7 @@ function searchRecords() {
         if (record) {
             // Si se encuentra el registro, mostrarlo
             const resultItem = document.createElement("div");
-            resultItem.innerText = `ID: ${id.trim()}, Registro: ${record}`;
+            resultItem.innerText = `${id.trim()}, : ${record}`;
             resultsDiv.appendChild(resultItem);
         } else {
             // Si no se encuentra el registro, mostrar un mensaje de error
