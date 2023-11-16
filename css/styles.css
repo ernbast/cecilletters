@@ -1,15 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #111; /* Cambiamos el fondo a un color oscuro */
+    color: #fff; /* Cambiamos el color del texto a blanco */
     margin: 0;
     padding: 0;
 }
 
 .container {
     max-width: 600px;
-    margin: 20px auto; /* Aumentamos el margen superior para separar el cuadro de búsqueda */
+    margin: 70px auto; /* Aumentamos el margen superior para separar el cuadro de búsqueda */
     padding: 20px;
-    background-color: #fff;
+    background-color: #333; /* Cambiamos el fondo del contenedor a un tono más oscuro */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center; /* Centramos el contenido en el contenedor */
@@ -17,6 +18,7 @@ body {
 
 h1 {
     margin-top: 0; /* Eliminamos el margen superior del encabezado */
+    color: #fff; /* Cambiamos el color del encabezado a blanco */
 }
 
 .search-box {
@@ -32,6 +34,9 @@ input[type="text"] {
     margin-bottom: 10px; /* Agregamos un margen inferior para separar el botón */
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #444; /* Cambiamos el fondo del cuadro de entrada de texto */
+    color: #fff; /* Cambiamos el color del texto dentro del cuadro de entrada de texto */
+
 }
 
 button {
@@ -53,3 +58,23 @@ button:hover {
     text-align: center;
     margin-top: 10px;
 }
+
+/* ... (otros estilos) ... */
+
+/* Estilo para los resultados de la búsqueda */
+#results div {
+    text-align: left; /* Alineamos el texto de los resultados a la izquierda */
+    width: 100%; /* Hacemos que el texto ocupe el ancho completo */
+    word-wrap: break-word; /* Rompemos palabras largas si no caben en el ancho */
+     
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Aumentamos el espacio superior e inferior */
+    margin-top: 150px; /* Añadimos margen superior para separar el pie de página del contenido */
+}
+
