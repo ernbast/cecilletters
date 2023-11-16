@@ -1,0 +1,9 @@
+#seleccion-multiple {
+    width: 200px;
+    height: 100px;
+}
+#resultados {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
